@@ -105,7 +105,7 @@ body {
     margin-bottom: 7px;
 }
 
-.sidebar__list:hover {
+.sidebar__list:hover, .sidebar__list:active {
     background:  #CCE6FF;
     border-left-color: #0C4CD3;
     color: #000;

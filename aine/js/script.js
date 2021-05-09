@@ -6,3 +6,12 @@ menu.addEventListener("click", function () {
   sidebar.classList.toggle("active");
   content.classList.toggle("active");
 });
+
+let list = document.querySelectorAll(".active");
+
+list.addEventListener("click", function (e) {
+  list.forEach.call(elems, function (el) {
+    el.classList.remove("active");
+  });
+  e.target.className = "active";
+});
